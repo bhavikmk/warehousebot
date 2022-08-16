@@ -1,5 +1,19 @@
 ## Autonomous mobile robot for warehouse applications
 
+### Usage
+
+* Build packages
+
+> `colcon build --packages-select warehouse_robot_spawner_pkg`
+
+> `colcon build --packages-select warehouse_robot_controller_pkg`
+
+* Launch packages
+
+> `ros2 launch warehouse_robot_spawner_pkg gazebo_world.launch.py`
+
+> `ros2 launch warehouse_robot_controller_pkg controller_estimator.launch.py`
+
 ### Project overview
 
 Updating soon...
