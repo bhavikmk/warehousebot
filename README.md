@@ -1,19 +1,5 @@
 ## Autonomous mobile robot for warehouse applications
 
-### Usage
-
-* Build packages
-
-> `colcon build --packages-select warehouse_robot_spawner_pkg`
-
-> `colcon build --packages-select warehouse_robot_controller_pkg`
-
-* Launch packages
-
-> `ros2 launch warehouse_robot_spawner_pkg gazebo_world.launch.py`
-
-> `ros2 launch warehouse_robot_controller_pkg controller_estimator.launch.py`
-
 ### Project overview
 
 Autonomous mobile robots, or AMRs, are swarm robotic systems capable of performing tasks and moving around the warehouse without the need for human intervention. These autonomous robots can improve warehouse efficiency by factors and can reduce cost significantly. 
@@ -39,6 +25,20 @@ Updating soon...
 ## Results
 
 Updating soon...
+
+### Usage
+
+**Build packages**
+
+* `colcon build --packages-select warehouse_robot_spawner_pkg`
+
+* `colcon build --packages-select warehouse_robot_controller_pkg`
+
+**Launch packages**
+
+* `ros2 launch warehouse_robot_spawner_pkg gazebo_world.launch.py`
+
+* `ros2 launch warehouse_robot_controller_pkg controller_estimator.launch.py`
 
 ### references
 
